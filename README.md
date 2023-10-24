@@ -24,4 +24,4 @@ Figuring out how find_package works, and exporting as well simplifying how to im
 `cd build && cmake ..` - In build directory compile cmake \
 `sudo make install` - Then, you use sudo if necessary, and then do make install and will install what you configured in
 the cmake onto your system, and if settings are default like filepath, etc. Thenthose files would go into cmake in /usr/local \
-or include in /usr/local. \
+or include in /usr/local. 
