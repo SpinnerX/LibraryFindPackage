@@ -12,7 +12,7 @@ Figuring out how find_package works, and exporting as well simplifying how to im
     as in a dir called cmake, and a bunch cmake files containing either different library configs, third party library configurations in the CMake.
 
 
-## <LibraryName>Config.cmake
+## `<LibraryName>Config.cmake`
 3.) The most important to note, when doing modules and trying to get find_package working, is make sure you have a cmake Congif file like the on
     in cmake directory in this repo. In the format of <Libraryname>Config.cmake. The reason for this is because when you install the CMake modules from cmake
     directory, these will go either to the default/customized (if adjustments made) filepath. So, in this case if your on M1 mac, then  the Config would go into
